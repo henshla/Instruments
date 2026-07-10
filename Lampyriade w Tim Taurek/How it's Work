@@ -1,0 +1,8 @@
+First workshop using ESPD, a firmware for using PureData patches inside esp32.
+The firmware is developped by Miller Pucket and the Tangible Music Lab.
+
+This musical instrument is an experimentation using this technology, expanding my personnal research about the relation of sound and light.
+There is no C# code for the ESP, only a PureDataPatch from Designing Sound, edited by Tim Taurek.
+
+Documentation video of the instrument : 
+https://www.youtube.com/shorts/nZJ-eAqhaHw
