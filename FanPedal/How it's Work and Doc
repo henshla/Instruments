@@ -1,0 +1,19 @@
+FanPedal is part of a serie of synth using analog and digital system.
+    Here the program use an ESP32 to receive data (from a microphone, a light sensor and a piezzo).
+
+Digital Sound Synthesis 
+  Pure Data do the sound synthesis 
+      ~a 'kick synthesis' at very high rate for Drone sound, controlled by : 
+                -the amplitude sound in from the microphone to change the Decay and Pitch
+                -the piezzo value to change the noise level
+                -the light value change the metro speed between 500ms and 0ms. The drone field is between 50ms and 0ms.
+      
+      ~a granular synthesis part to resynthesis the last 2s of the kick synthesis and the voice (voice work in progress to link it with the esp32Mic, probably using ESPD for next update) :
+                -a button to active the 2s count and record the sound in a array
+                -the piezzo and the mic to start and end point
+
+Analog Distorsion 
+    The output of Pure Data is send to an amp, wired to two fan, mooving by the frequency and the amplitude of the sound. We can ear the sound trough the motor movement. The amp send the 'dry' sound on the mixer.
+    A piezzo is glue to each of the fan and send this distorded sound on the mixer.
+    For the moment the mixer is not implemented in the instrument, I using an external mixtable. 
+
