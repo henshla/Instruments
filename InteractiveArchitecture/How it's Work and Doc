@@ -1,0 +1,13 @@
+Interactive Architecture is a sound and visual installation made for the Cezanne 2025 exhibition in Aix-en-Provence (France), driven by Hexalab.
+
+It's consist of a visual part running on TouchDesigner for the 360° screen, a sound part running on VCVRack and a physical interface for four people to control sound and visual.
+In each of the four 'sit' of the instrument, there is one iR sensor and three potentiometer, modulating a VCVRack and a TouchDesigner part.
+An audio transducer is placed below the instrument, vibrating itself by the soundfrequency.
+Some sand is on the instrument, revealing sound shape on it by the vibrations.
+
+Video documentation : 
+  
+  Second version of the project (Méjanes) : https://www.youtube.com/watch?v=_L_TdswTguk
+  First Grand-public test (ESAAIX) : https://www.youtube.com/watch?v=pHP8GFWDNWc 
+
+I'm working on the next version, for go back in the more noisy version of the First test, but with more affordance system (by the addition of leds of the second version), less portable (4 different table and not one table with four sit), and running on PureData.
